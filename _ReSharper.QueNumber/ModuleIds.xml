@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="41F0CC1A-7B3E-41EB-9A32-B780CC0385CC" ModuleId="QueNumber" />
+  <Module PersistentId="A5B55236-E05F-425B-9188-0094F7612522" ModuleId="QueDisplay" />
+  <Module PersistentId="782CD10D-8AA5-47B0-AA0C-0FCB6A1EF186" ModuleId="QueClient" />
+</Modules>

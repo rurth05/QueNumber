@@ -1,0 +1,14 @@
+D:\MyWorkspace\QueNumber\QueDisplay\bin\Debug\QueDisplay.exe
+D:\MyWorkspace\QueNumber\QueDisplay\bin\Debug\QueDisplay.pdb
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\MainWindow.baml
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\MainWindow.g.cs
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\App.g.cs
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\QueDisplay_MarkupCompile.cache
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\QueDisplay.g.resources
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\QueDisplay.Properties.Resources.resources
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\QueDisplay.csproj.GenerateResource.Cache
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\QueDisplay.exe
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\QueDisplay.pdb
+D:\MyWorkspace\QueNumber\QueDisplay\bin\Debug\QueDisplay.exe.config
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\MainDisplay.baml
+D:\MyWorkspace\QueNumber\QueDisplay\obj\x86\Debug\MainDisplay.g.cs

@@ -1,0 +1,8 @@
+D:\MyWorkspace\QueNumber\TesSound\bin\Debug\TesSound.exe
+D:\MyWorkspace\QueNumber\TesSound\bin\Debug\TesSound.pdb
+D:\MyWorkspace\QueNumber\TesSound\obj\x86\Debug\TesSound.Form1.resources
+D:\MyWorkspace\QueNumber\TesSound\obj\x86\Debug\TesSound.Properties.Resources.resources
+D:\MyWorkspace\QueNumber\TesSound\obj\x86\Debug\TesSound.csproj.GenerateResource.Cache
+D:\MyWorkspace\QueNumber\TesSound\obj\x86\Debug\TesSound.exe
+D:\MyWorkspace\QueNumber\TesSound\obj\x86\Debug\TesSound.pdb
+D:\MyWorkspace\QueNumber\TesSound\obj\x86\Debug\TesSound.csprojResolveAssemblyReference.cache

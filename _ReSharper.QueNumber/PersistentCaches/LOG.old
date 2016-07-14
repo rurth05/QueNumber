@@ -1,0 +1,5 @@
+2015/02/15-20:37:20.429 14fc Recovering log #64
+2015/02/15-20:37:20.429 14fc Level-0 table #66: started
+2015/02/15-20:37:20.588 14fc Level-0 table #66: 10213 bytes OK
+2015/02/15-20:37:20.820 14fc Delete type=0 #64
+2015/02/15-20:37:20.821 14fc Delete type=3 #62

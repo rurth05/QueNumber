@@ -1,0 +1,36 @@
+﻿<Window x:Class="QueNumber.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="525" WindowState="Maximized" WindowStyle="None">
+    <Grid Background="#FF878787">
+        <GroupBox Header="Customer Service" Height="200" Margin="27,38,26,0" Name="gbCust" VerticalAlignment="Top" FontSize="48">
+            <Grid>
+                <TextBlock Height="86" Margin="25,20,0,0" Name="tb1" Text="000" VerticalAlignment="Top" FontSize="72" FontFamily="LED Counter 7" FontWeight="Normal" Foreground="Red" HorizontalAlignment="Left" Width="220" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="25,5,0,0" Name="tbAntrianAnda1" Text="No Antrian Anda :" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+                <Image Height="120" Margin="0,3,25,0" Name="img1" Stretch="Fill" VerticalAlignment="Top" Source="/QueNumber;component/Images/Button.png" HorizontalAlignment="Right" Width="120" MouseDown="img1_MouseDown" MouseUp="img1_MouseUp" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Teller" Height="200" Margin="27,263,26,0" Name="gbTeller" VerticalAlignment="Top" HorizontalContentAlignment="Left" FontSize="48">
+            <Grid>
+                <TextBlock FontFamily="LED Counter 7" FontSize="72" FontWeight="Normal" Foreground="Red" Height="86" HorizontalAlignment="Left" Margin="25,20,0,0" Name="tb2" Text="800" VerticalAlignment="Top" Width="220" />
+                <TextBlock FontSize="20" FontWeight="Bold" Height="23" HorizontalAlignment="Left" Margin="25,5,0,0" Name="tbAntrianAnda2" Text="No Antrian Anda :" VerticalAlignment="Top" />
+                <Image Height="120" Margin="0,3,25,0" Name="img2" Source="/QueNumber;component/Images/Button.png" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120" MouseDown="img2_MouseDown" MouseUp="img2_MouseUp" />
+            </Grid>
+        </GroupBox>
+        <Canvas Name="canvas1" ClipToBounds="True" Width="900" Height="90" Margin="0,520,0,0" VerticalAlignment="Top" />
+        <!--<TextBlock Height="90" Width="Auto" Margin="27,496,26,0" Name="tbWelcome" Text="SELAMAT DATANG, SILAKAN AMBIL NOMOR ANTRIAN ANDA !" VerticalAlignment="Top" FontSize="64" FontFamily="LED Counter 7" Foreground="Red" HorizontalAlignment="Center">
+            <TextBlock.RenderTransform>
+                <TranslateTransform x:Name="AnimatedTranslateTransform" X="0" Y="0"/>
+            </TextBlock.RenderTransform>
+            <TextBlock.Triggers>
+                <EventTrigger RoutedEvent="TextBlock.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="AnimatedTranslateTransform" Storyboard.TargetProperty="X" From="800" To="-800" Duration="0:0:10" RepeatBehavior="Forever"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </TextBlock.Triggers>
+        </TextBlock>-->
+    </Grid>
+</Window>

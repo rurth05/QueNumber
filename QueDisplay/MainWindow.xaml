@@ -1,0 +1,66 @@
+﻿<Window x:Class="QueDisplay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" WindowStyle="None" WindowState="Maximized" Loaded="Window_Loaded">
+    <Grid Background="#FF878787">
+        <!--<DockPanel>-->
+        <TextBlock Height="150" HorizontalAlignment="Right" Margin="0,10,0,0" Name="tb1" Text="" VerticalAlignment="Top" TextWrapping="Wrap" Width="Auto" TextAlignment="Center" FontSize="72" FontWeight="Bold" Background="Black">
+            <TextBlock.Triggers>
+                <EventTrigger RoutedEvent="TextBlock.SizeChanged">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard Name="BlinkStoryBoard" BeginTime="00:00:00" RepeatBehavior="5x" Storyboard.TargetProperty="(Foreground).(SolidColorBrush.Color)">
+                                        <ColorAnimation From="Black" To="Yellow" Duration="0:0:1"/>
+                                </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </TextBlock.Triggers>
+        </TextBlock>
+        <TextBlock Height="150" HorizontalAlignment="Right" Margin="0,170,0,0" Name="tb2" Text="" VerticalAlignment="Top" TextWrapping="Wrap" Width="Auto" TextAlignment="Center" FontSize="72" FontWeight="Bold" Background="Black">
+            <TextBlock.Triggers>
+                <EventTrigger RoutedEvent="TextBlock.SizeChanged">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard BeginTime="00:00:00" RepeatBehavior="5x"  Storyboard.TargetName="tb2" Storyboard.TargetProperty="(Foreground).(SolidColorBrush.Color)">
+                                        <ColorAnimation From="Black" To="Yellow" Duration="0:0:1"/>
+                                </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </TextBlock.Triggers>
+        </TextBlock>
+        <TextBlock Height="150" HorizontalAlignment="Right" Margin="0,330,0,0" Name="tb3" Text="" VerticalAlignment="Top" TextWrapping="Wrap" Width="Auto" TextAlignment="Center" FontSize="72" FontWeight="Bold" Background="Black">
+            <TextBlock.Triggers>
+                <EventTrigger RoutedEvent="TextBlock.SizeChanged">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard BeginTime="00:00:00" RepeatBehavior="5x"  Storyboard.TargetName="tb3" Storyboard.TargetProperty="(Foreground).(SolidColorBrush.Color)">
+                                        <ColorAnimation From="Black" To="Yellow" Duration="0:0:1"/>
+                                </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </TextBlock.Triggers>
+        </TextBlock>
+        <TextBlock Height="150" HorizontalAlignment="Right" Margin="0,490,0,0" Name="tb4" Text="" VerticalAlignment="Top" TextWrapping="Wrap" Width="Auto" TextAlignment="Center" FontSize="72" FontWeight="Bold" Background="Black">
+            <TextBlock.Triggers>
+                <EventTrigger RoutedEvent="TextBlock.SizeChanged">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard BeginTime="00:00:00" RepeatBehavior="5x"  Storyboard.TargetName="tb4" Storyboard.TargetProperty="(Foreground).(SolidColorBrush.Color)">
+                                        <ColorAnimation From="Black" To="Yellow" Duration="0:0:1"/>
+                                </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </TextBlock.Triggers>
+        </TextBlock>
+        <MediaElement Height="182" HorizontalAlignment="Left" Margin="0,32,0,0" Name="mediaElement1" VerticalAlignment="Top" Width="336" ></MediaElement>
+        <Grid Height="100" VerticalAlignment="Bottom" Background="Black">
+        <Canvas Name="canvas1" Height="100" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="200" />
+        </Grid>
+        <WrapPanel Height="Auto" HorizontalAlignment="Right" Name="stackPanel1" VerticalAlignment="Stretch" Width="258" Orientation="Horizontal" />
+        <!--</DockPanel>-->
+    </Grid>
+</Window>

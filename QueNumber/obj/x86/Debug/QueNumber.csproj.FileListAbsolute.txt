@@ -1,0 +1,11 @@
+D:\MyWorkspace\QueNumber\QueNumber\bin\Debug\QueNumber.exe
+D:\MyWorkspace\QueNumber\QueNumber\bin\Debug\QueNumber.pdb
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\MainWindow.baml
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\MainWindow.g.cs
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\App.g.cs
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\QueNumber_MarkupCompile.cache
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\QueNumber.g.resources
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\QueNumber.Properties.Resources.resources
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\QueNumber.csproj.GenerateResource.Cache
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\QueNumber.exe
+D:\MyWorkspace\QueNumber\QueNumber\obj\x86\Debug\QueNumber.pdb

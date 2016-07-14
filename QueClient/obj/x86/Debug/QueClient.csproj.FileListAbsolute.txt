@@ -1,0 +1,9 @@
+D:\MyWorkspace\QueNumber\QueClient\bin\Debug\QueClient.exe
+D:\MyWorkspace\QueNumber\QueClient\bin\Debug\QueClient.pdb
+D:\MyWorkspace\QueNumber\QueClient\obj\x86\Debug\QueClient.FrMain.resources
+D:\MyWorkspace\QueNumber\QueClient\obj\x86\Debug\QueClient.Properties.Resources.resources
+D:\MyWorkspace\QueNumber\QueClient\obj\x86\Debug\QueClient.csproj.GenerateResource.Cache
+D:\MyWorkspace\QueNumber\QueClient\obj\x86\Debug\QueClient.exe
+D:\MyWorkspace\QueNumber\QueClient\obj\x86\Debug\QueClient.pdb
+D:\MyWorkspace\QueNumber\QueClient\obj\x86\Debug\QueClient.csprojResolveAssemblyReference.cache
+D:\MyWorkspace\QueNumber\QueClient\bin\Debug\QueClient.exe.config
